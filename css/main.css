@@ -1,0 +1,18 @@
+#left-eye, #right-eye {
+  animation: slide 3s linear alternate infinite;
+}
+
+@keyframes slide {
+
+  0% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    transform: translateX(10px);
+  }
+}
+
+#left-ear, #right-ear {
+  transition: all .5s linear;
+}
